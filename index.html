@@ -1,0 +1,324 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Vimeo · Your complete video platform</title>
+  <meta name="description" content="Vimeo's ad-free platform provides everything you need to host, manage, and share high-quality videos." />
+  <meta property="og:title" content="Vimeo · Your complete video platform" />
+  <meta property="og:description" content="Host, manage, and share high-quality videos with Vimeo." />
+  <link rel="preconnect" href="https://player.vimeo.com" />
+  <link rel="preconnect" href="https://i.vimeocdn.com" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <!-- Header -->
+  <header class="site-header">
+    <div class="container header-inner">
+      <div class="header-left">
+        <a href="/" class="logo" aria-label="Vimeo home">vimeo</a>
+        <nav class="primary-nav" aria-label="Primary">
+          <button class="nav-link" type="button">Features <svg width="10" height="10" viewBox="0 0 10 10" aria-hidden="true"><path d="M1 3l4 4 4-4" stroke="currentColor" stroke-width="1.5" fill="none"/></svg></button>
+          <button class="nav-link" type="button">Use cases <svg width="10" height="10" viewBox="0 0 10 10" aria-hidden="true"><path d="M1 3l4 4 4-4" stroke="currentColor" stroke-width="1.5" fill="none"/></svg></button>
+          <button class="nav-link" type="button">Enterprise <svg width="10" height="10" viewBox="0 0 10 10" aria-hidden="true"><path d="M1 3l4 4 4-4" stroke="currentColor" stroke-width="1.5" fill="none"/></svg></button>
+          <button class="nav-link" type="button">Learn <svg width="10" height="10" viewBox="0 0 10 10" aria-hidden="true"><path d="M1 3l4 4 4-4" stroke="currentColor" stroke-width="1.5" fill="none"/></svg></button>
+          <button class="nav-link" type="button">Pricing</button>
+          <button class="nav-link" type="button">What's new</button>
+        </nav>
+      </div>
+
+      <div class="header-right">
+        <button class="btn btn-ghost btn-sm">Contact sales</button>
+        <button class="btn btn-brand btn-sm">Join <span class="arrow">→</span></button>
+        <button class="icon-btn" aria-label="Upload">
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M12 16V4m0 0l-4 4m4-4l4 4M4 20h16"/></svg>
+        </button>
+        <button class="icon-btn" aria-label="Watch">
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><rect x="3" y="5" width="18" height="14" rx="2"/><path d="M10 9l5 3-5 3z" fill="currentColor"/></svg>
+        </button>
+        <button class="icon-btn" aria-label="Account">
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><circle cx="12" cy="8" r="4"/><path d="M4 21c0-4 4-7 8-7s8 3 8 7"/></svg>
+        </button>
+      </div>
+
+      <button class="hamburger" id="hamburger" aria-label="Toggle menu" aria-expanded="false">
+        <svg class="icon-open" width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 7h16M4 12h16M4 17h16"/></svg>
+        <svg class="icon-close" width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M6 6l12 12M6 18L18 6"/></svg>
+      </button>
+    </div>
+
+    <div class="mobile-nav" id="mobileNav" hidden>
+      <a href="#">Features</a>
+      <a href="#">Use cases</a>
+      <a href="#">Enterprise</a>
+      <a href="#">Learn</a>
+      <a href="#">Pricing</a>
+      <a href="#">What's new</a>
+      <div class="mobile-nav-actions">
+        <button class="btn btn-ghost">Contact sales</button>
+        <button class="btn btn-brand">Join →</button>
+      </div>
+    </div>
+  </header>
+
+  <!-- Hero -->
+  <section class="hero container">
+    <div class="hero-frame">
+      <video
+        class="hero-video"
+        src="https://player.vimeo.com/progressive_redirect/playback/1069021926/rendition/720p/file.mp4?loc=external&signature=8cfe0374460e6987523da7a4a3ad195acf04529e4c45a6bc90ef38b520611f72"
+        poster="https://vimeo.bynder.com/transform/8c1b1c8c-8548-4d32-8dea-2db4bca4f7ac/Fall-back-LOHP-Hero?io=transform:fill,width:1920&quality=80"
+        autoplay muted loop playsinline preload="metadata"></video>
+      <div class="hero-overlay"></div>
+      <div class="hero-content">
+        <p class="eyebrow">YOUR COMPLETE VIDEO PLATFORM</p>
+        <h1 class="hero-title">Your videos,<br />your way</h1>
+        <p class="hero-desc">Vimeo's ad-free platform provides everything you need to host, manage, and share high-quality videos.</p>
+        <div class="hero-cta">
+          <button class="btn btn-brand">Join free <span class="arrow">→</span></button>
+        </div>
+      </div>
+      <div class="float-cta">
+        <span class="float-play"><svg width="14" height="14" viewBox="0 0 14 14" fill="currentColor"><path d="M3 1l9 6-9 6z"/></svg></span>
+        <span>See why millions<br />love Vimeo</span>
+      </div>
+    </div>
+  </section>
+
+  <!-- Trusted by -->
+  <section class="trusted">
+    <p class="muted center">Trusted by 287+ million creatives, marketers, and businesses</p>
+    <div class="marquee-wrap">
+      <div class="marquee" id="marquee">
+        <span>Bloomberg</span><span>xfinity</span><span>OmnicomGroup</span><span>WHOLE FOODS</span>
+        <span>WPP</span><span>WB</span><span>:DROPOUT</span><span>Even/Odd</span>
+        <span>Seismic</span><span>Coca-Cola</span>
+        <!-- duplicated for seamless loop -->
+        <span>Bloomberg</span><span>xfinity</span><span>OmnicomGroup</span><span>WHOLE FOODS</span>
+        <span>WPP</span><span>WB</span><span>:DROPOUT</span><span>Even/Odd</span>
+        <span>Seismic</span><span>Coca-Cola</span>
+      </div>
+    </div>
+  </section>
+
+  <!-- Built for how you work -->
+  <section class="builtfor">
+    <div class="blob blob-1"></div>
+    <div class="blob blob-2"></div>
+    <div class="container center narrow">
+      <h2 class="display">Built for how you work</h2>
+      <p class="lead">From SSO and privacy controls to live streaming, advanced AI features, and more — Vimeo Enterprise can be customized to match what your business needs.</p>
+      <button class="btn btn-brand">Request a demo <span class="arrow">→</span></button>
+    </div>
+  </section>
+
+  <!-- Platform that powers - dark -->
+  <section class="dark-section">
+    <div class="container">
+      <h2 class="display center">The platform that powers<br />your video strategy</h2>
+      <div class="platform-grid">
+        <article class="platform-card">
+          <div class="card-video"><video src="https://player.vimeo.com/progressive_redirect/playback/1069334274/rendition/540p/file.mp4?loc=external&signature=1ee9a7299b88eef0e3ed63566b05d575cac3366ce98bce4114a2ae322a5470a9" autoplay muted loop playsinline preload="metadata"></video></div>
+          <h3>Host in high quality, ad-free</h3>
+          <p>Ensure your videos play in their highest resolution, always ad-free. No competitor distractions or random suggestions here.</p>
+          <a class="pill-link" href="#">Learn about video hosting <span>→</span></a>
+        </article>
+        <article class="platform-card">
+          <div class="card-video"><video src="https://player.vimeo.com/progressive_redirect/playback/1069333758/rendition/540p/file.mp4?loc=external&signature=216d708efea007d448ab4ccd9c36e71c253e956300cff34713711ede56442573" autoplay muted loop playsinline preload="metadata"></video></div>
+          <h3>Collaborate with anyone</h3>
+          <p>Share cuts for review, get granular with time-coded comments, and manage version history in one organized library.</p>
+          <a class="pill-link" href="#">Learn about video collaboration <span>→</span></a>
+        </article>
+        <article class="platform-card">
+          <div class="card-video"><video src="https://player.vimeo.com/progressive_redirect/playback/1069333558/rendition/540p/file.mp4?loc=external&signature=a76cd5f38e9f59f20a50e3e440b6c5322cfe0b3230f94d8651e62289046d1467" autoplay muted loop playsinline preload="metadata"></video></div>
+          <h3>Embed anywhere</h3>
+          <p>Drive traffic to your website with Vimeo's customizable, embeddable player. Share across social channels in seconds.</p>
+          <a class="pill-link" href="#">Learn about video player <span>→</span></a>
+        </article>
+        <article class="platform-card">
+          <div class="card-video"><video src="https://player.vimeo.com/progressive_redirect/playback/1069333177/rendition/540p/file.mp4?loc=external&signature=0e2796732a35b8b49db567204d88b3c88d25f7b630e02a0b7101f60b5bf5b9a7" autoplay muted loop playsinline preload="metadata"></video></div>
+          <h3>Keep videos secure</h3>
+          <p>Keep your content secure with granular access management and advanced privacy settings like password protection.</p>
+          <a class="pill-link" href="#">Learn about video security <span>→</span></a>
+        </article>
+        <article class="platform-card">
+          <div class="card-video"><video src="https://player.vimeo.com/progressive_redirect/playback/1069332461/rendition/540p/file.mp4?loc=external&signature=091de529f5ff88f52584a0b882c23a6cb692594dc08bb5e4fa8393f94ccbded3" autoplay muted loop playsinline preload="metadata"></video></div>
+          <h3>Sell your content</h3>
+          <p>Monetize content on demand and even build a subscription platform with simple tools that adjust to your business model.</p>
+          <a class="pill-link" href="#">Learn about video monetization <span>→</span></a>
+        </article>
+        <article class="platform-card">
+          <div class="card-video"><video src="https://player.vimeo.com/progressive_redirect/playback/1069331853/rendition/540p/file.mp4?loc=external&signature=0746a225f5773079ebce4fa2bff7b92b078e51610449124734dd8079c9d57eda" autoplay muted loop playsinline preload="metadata"></video></div>
+          <h3>Stream live with confidence</h3>
+          <p>Host virtual events, webinars, live broadcasts, and more with Vimeo's suite of easy-to-use live streaming tools.</p>
+          <a class="pill-link" href="#">Learn about live streaming <span>→</span></a>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- A video solution perfect for everyone -->
+  <section class="personas">
+    <div class="container">
+      <div class="narrow-block">
+        <h2 class="display">A video solution perfect for everyone</h2>
+        <p class="lead">Whether you're a seasoned pro or just starting out, Vimeo's intuitive platform makes it easy to upload, manage, and share your videos with complete control over privacy and distribution.</p>
+        <button class="btn btn-brand">Join free <span class="arrow">→</span></button>
+      </div>
+
+      <div class="personas-grid">
+        <div class="cole-card">
+          <img src="https://i.vimeocdn.com/custom_asset/5a4c4abd07e813536f528fc53ad68345" alt="Cole Webley — Staff Picked filmmaker" loading="lazy" />
+          <div class="cole-pill">
+            <div class="cole-badge">SP</div>
+            <div class="cole-text">
+              <p class="cole-name">Cole Webley</p>
+              <p class="cole-sub">Staff Picked filmmaker · Member since 2011</p>
+            </div>
+            <button class="play-btn" aria-label="Play"><svg width="12" height="12" viewBox="0 0 14 14" fill="currentColor"><path d="M3 1l9 6-9 6z"/></svg></button>
+          </div>
+        </div>
+
+        <ul class="persona-list">
+          <li><span class="persona-icon">🎥</span><div><h3><a href="#">Video pros →</a></h3><p>Showcase work, collaborate with clients, and connect with a passionate community of filmmakers and creatives.</p></div></li>
+          <li><span class="persona-icon">📈</span><div><h3><a href="#">Marketing teams →</a></h3><p>Elevate your brand with high-quality video and expand your reach with precision and control.</p></div></li>
+          <li><span class="persona-icon">🖥️</span><div><h3><a href="#">Communications teams →</a></h3><p>Centralize communication and maximize engagement with high-quality, live events, and secure video hosting.</p></div></li>
+          <li><span class="persona-icon">📚</span><div><h3><a href="#">Learning and development leaders →</a></h3><p>Scale training with interactive, AI-powered videos that integrate with any LMS to engage global teams in various languages.</p></div></li>
+          <li><span class="persona-icon">🔵</span><div><h3><a href="#">Content businesses →</a></h3><p>Monetize your videos with everything you need to grow and manage your audience.</p></div></li>
+          <li><span class="persona-icon">🏢</span><div><h3><a href="#">Enterprise organizations →</a></h3><p>Streamline video workflows across your company with security, scale, and advanced analytics.</p></div></li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <!-- AI that takes your videos to the next level -->
+  <section class="dark-section ai-section">
+    <div class="container ai-grid">
+      <div>
+        <h2 class="display"><span class="ai-spark">✦</span> AI that takes your videos to the next level</h2>
+
+        <div class="accordion" id="aiAccordion">
+          <button class="ai-item active" data-video="https://player.vimeo.com/progressive_redirect/playback/1067406973/rendition/720p/file.mp4?loc=external&signature=788673daae2f8b3c5b254f62c829e0f02ec2cd2ca40d3ff3c2d352b08337ffe4">
+            <span>Translate your videos quickly and easily</span><span class="ai-toggle">−</span>
+          </button>
+          <button class="ai-item" data-video="https://player.vimeo.com/progressive_redirect/playback/1067407353/rendition/720p/file.mp4?loc=external&signature=ca16f51d46ca62d748580308d91c46c81a5021ea4b401c3c703a32fd10d61970">
+            <span>Let Vimeo AI answer your viewers' questions</span><span class="ai-toggle">+</span>
+          </button>
+          <button class="ai-item" data-video="https://player.vimeo.com/progressive_redirect/playback/1067407808/rendition/720p/file.mp4?loc=external&signature=299e7b1babcb92229e7c1fa625c9418acbcf550e2a15a8a4b429b00f730dbc9a">
+            <span>Edit videos as easily as editing a document</span><span class="ai-toggle">+</span>
+          </button>
+        </div>
+
+        <div class="seo-card">
+          <h3 class="gradient-text">Automatically optimize your videos for SEO</h3>
+          <p>Vimeo AI provides SEO-optimized titles, descriptions, chapters, and tags. Just upload, click to generate, and share away.</p>
+          <button class="btn btn-light">Auto-generate the details <span>→</span></button>
+        </div>
+      </div>
+
+      <div class="ai-video-wrap">
+        <video id="aiVideo"
+          src="https://player.vimeo.com/progressive_redirect/playback/1067406973/rendition/720p/file.mp4?loc=external&signature=788673daae2f8b3c5b254f62c829e0f02ec2cd2ca40d3ff3c2d352b08337ffe4"
+          poster="https://i.vimeocdn.com/custom_asset/a92fb3a4cccdddb67ce0e33a09ab883a"
+          autoplay muted loop playsinline preload="metadata"></video>
+      </div>
+    </div>
+  </section>
+
+  <!-- Enterprise security and scale -->
+  <section class="enterprise">
+    <div class="container ent-grid">
+      <div>
+        <h2 class="display">Enterprise security and scale</h2>
+        <p class="lead">Vimeo retains the high-quality that video pros have trusted for decades, while providing the scalability, security, and insights that leading enterprise businesses demand.</p>
+        <button class="btn btn-dark">Learn about Vimeo Enterprise <span class="arrow">→</span></button>
+      </div>
+      <ul class="card-set-grid grid w-full px-10 text-center grid grid-cols-2 gap-x-lohp-lg gap-y-5 lg:gap-y-lohp-md lg:grid-cols-3 lg:px-0 lg:gap-x-[2.1rem] xl:col-[15/-4] 2xl:gap-x-lohp-lg col-[2/-2] lg:col-[14/-3] md:animate-subtle-fade-in md:motion-reduce:animate-none" aria-labelledby="subtitle-21506b8087b84c2c967242dcac234179">
+        <li id="subtitle-21506b8087b84c2c967242dcac234179" class="card-set-subtitle flex items-center text-body-2-med before:content-[&quot;&quot;] before:flex-1 before:p-[1.5px] before:mr-5 before:bg-current after:content-[&quot;&quot;] after:flex-1 after:p-[1.5px] after:ml-5 after:bg-current col-[1/-1] lg:row-[2/span_1]">
+          <span class="max-w-[300px] md:max-w-[400px]">Peace of mind included</span>
+        </li>
+        <li class="md:animate-fade-in md:motion-reduce:animate-none">
+          <div class="card-icon flex flex-col gap-5 w-full h-full items-center px-1 md:px-[3px]">
+            <i class="icon-v3 flex" aria-hidden="true">
+              <svg xmlns="http://www.w3.org/2000/svg" width="32" height="31" fill="none" viewBox="0 0 27 33" aria-labelledby="" style="color:currentColor">
+                <path fill="currentColor" d="M13.215 18.16c-.431 0-.844.169-1.15.469-.304.3-.475.707-.475 1.131v4.8c0 .424.171.831.476 1.131s.718.47 1.149.47c.43 0 .844-.17 1.149-.47s.476-.707.476-1.13v-4.8c0-.425-.171-.832-.476-1.132a1.64 1.64 0 0 0-1.15-.469m8.125-6.4v-3.2a7.94 7.94 0 0 0-2.38-5.657A8.2 8.2 0 0 0 13.215.56 8.2 8.2 0 0 0 7.47 2.903 7.94 7.94 0 0 0 5.09 8.56v3.2a4.91 4.91 0 0 0-3.447 1.406A4.76 4.76 0 0 0 .215 16.56v11.2c0 1.273.513 2.494 1.428 3.394A4.91 4.91 0 0 0 5.09 32.56h16.25a4.91 4.91 0 0 0 3.447-1.406 4.76 4.76 0 0 0 1.428-3.394v-11.2a4.76 4.76 0 0 0-1.428-3.394 4.91 4.91 0 0 0-3.447-1.406m-13-3.2c0-1.273.513-2.494 1.428-3.394a4.91 4.91 0 0 1 3.447-1.406c1.293 0 2.533.506 3.447 1.406A4.76 4.76 0 0 1 18.09 8.56v3.2H8.34zm14.625 19.2c0 .424-.171.831-.476 1.131s-.718.47-1.15.47H5.09c-.43 0-.843-.17-1.148-.47a1.59 1.59 0 0 1-.476-1.13v-11.2c0-.425.171-.832.476-1.132s.718-.469 1.149-.469h16.25c.43 0 .844.169 1.149.469s.476.707.476 1.131z"></path>
+              </svg>
+            </i>
+            <h3 class="card-icon-title text-body-3-med md:text-body-2-med text-balance">SOC&nbsp;2 Type&nbsp;II</h3>
+          </div>
+        </li>
+        <li class="md:animate-fade-in md:motion-reduce:animate-none">
+          <div class="card-icon flex flex-col gap-5 w-full h-full items-center px-1 md:px-[3px]">
+            <i class="icon-v3 flex" aria-hidden="true">
+              <svg xmlns="http://www.w3.org/2000/svg" width="32" height="31" fill="none" viewBox="0 0 32 31" aria-labelledby="" style="color:currentColor">
+                <path fill="currentColor" d="M10.128 15.11H8.02v2.673h2.108v-.939H9.025v-.719h1.759v1.454q0 .58-.149.79-.147.21-.57.209h-2q-.424 0-.571-.21-.15-.21-.149-.789v-2.225q0-.575.149-.786.148-.212.57-.212h2q.418 0 .569.208t.15.75v.096l-.655.172zM12.21 18.578v-4.222h1.866q.799 0 1.229.543.429.543.429 1.542 0 .591-.168 1.064a1.76 1.76 0 0 1-.472.745 1.14 1.14 0 0 1-.47.25 2.8 2.8 0 0 1-.72.078zm.676-.795h.872q.697 0 .988-.315.29-.315.29-1.043 0-.647-.24-.98-.243-.334-.714-.334h-1.196zM16.971 18.578v-4.222h2.481q.345 0 .5.194.156.193.156.625v.942q0 .427-.155.621t-.501.194h-1.817v1.646zm2.182-3.491h-1.517v1.118h1.517q.176 0 .24-.074t.064-.261v-.452q0-.183-.064-.257-.065-.074-.24-.074M21.148 18.578v-4.222h2.48q.346 0 .501.194.156.193.155.625v.99q0 .427-.155.624-.155.195-.5.195h-.38l1.34 1.594h-.969l-1.169-1.594h-.639v1.594zm2.181-3.491h-1.517v1.174h1.517q.175 0 .24-.074.065-.073.065-.261v-.508q0-.183-.065-.257-.064-.074-.24-.074M18.746 3.287c.027-.133-.08-.294-.214-.294l-1.526-.214-.697-1.393a.2.2 0 0 0-.107-.107c-.134-.08-.295-.027-.375.107l-.67 1.393-1.526.214q-.12 0-.16.08a.26.26 0 0 0 0 .375l1.098 1.071-.268 1.527c0 .053 0 .107.027.16.08.134.24.188.374.108l1.366-.723 1.366.723c.027.026.08.026.134.026h.053a.28.28 0 0 0 .215-.32l-.268-1.527 1.098-1.072a.15.15 0 0 0 .08-.134M12.319 4.25c.027-.135-.08-.295-.214-.295l-1.527-.215-.696-1.392a.2.2 0 0 0-.107-.107c-.134-.08-.295-.027-.375.107L8.73 3.74l-1.526.215q-.12 0-.16.08a.26.26 0 0 0 0 .375L8.14 5.48l-.268 1.527c0 .053 0 .107.027.16.08.134.241.188.375.107l1.366-.723 1.366.723c.027.027.08.027.134.027h.053a.28.28 0 0 0 .214-.321l-.267-1.527 1.098-1.07a.15.15 0 0 0 .08-.135M7.728 8.84c.027-.134-.08-.295-.214-.295l-1.527-.214-.696-1.392a.2.2 0 0 0-.107-.107c-.134-.08-.295-.027-.375.107l-.67 1.392-1.526.214q-.12 0-.16.08a.26.26 0 0 0 0 .376l1.097 1.071-.267 1.526c0 .054 0 .108.026.161.08.134.241.188.375.107l1.366-.723 1.366.723c.027.027.08.027.134.027h.053a.28.28 0 0 0 .215-.321l-.268-1.527 1.098-1.071a.15.15 0 0 0 .08-.134M5.892 15.267c.026-.134-.08-.294-.215-.294l-1.526-.215-.696-1.392a.2.2 0 0 0-.107-.107c-.134-.08-.295-.027-.375.107l-.67 1.393-1.526.214q-.12 0-.161.08a.26.26 0 0 0 0 .375l1.098 1.071-.268 1.527c0 .053 0 .107.027.16.08.134.241.188.375.108l1.366-.724 1.365.724c.027.026.08.026.134.026h.054A.28.28 0 0 0 4.98 18l-.268-1.527 1.098-1.07a.15.15 0 0 0 .08-.135M7.728 21.695c.027-.134-.08-.295-.214-.295l-1.527-.214-.696-1.393a.2.2 0 0 0-.107-.107c-.134-.08-.295-.027-.375.107l-.67 1.393-1.526.214q-.12 0-.16.08a.26.26 0 0 0 0 .375l1.097 1.072-.267 1.526c0 .053 0 .107.026.16.08.135.241.188.375.108l1.366-.723 1.366.723c.027.027.08.027.134.027h.053a.28.28 0 0 0 .215-.322L6.55 22.9l1.098-1.072a.15.15 0 0 0 .08-.133M12.319 25.367c.027-.134-.08-.294-.214-.294l-1.527-.215-.696-1.392a.2.2 0 0 0-.107-.107c-.134-.08-.295-.027-.375.107l-.67 1.392-1.526.215q-.12 0-.16.08a.26.26 0 0 0 0 .375l1.097 1.071-.268 1.527c0 .053 0 .107.027.16.08.134.241.188.375.107l1.366-.723 1.366.723c.027.027.08.027.134.027h.053a.28.28 0 0 0 .214-.321l-.267-1.527 1.098-1.07a.15.15 0 0 0 .08-.135M18.746 27.204c.027-.134-.08-.295-.214-.295l-1.526-.214-.697-1.393a.2.2 0 0 0-.107-.107c-.134-.08-.295-.027-.375.107l-.67 1.393-1.526.214q-.12 0-.16.08a.26.26 0 0 0 0 .375l1.098 1.072-.268 1.526c0 .054 0 .107.027.16.08.135.24.188.374.108l1.366-.723 1.366.723c.027.027.08.027.134.027h.053a.28.28 0 0 0 .215-.322l-.268-1.526 1.098-1.071a.15.15 0 0 0 .08-.134M25.174 25.367c.026-.134-.08-.294-.215-.294l-1.526-.215-.697-1.392a.2.2 0 0 0-.107-.107c-.134-.08-.294-.027-.375.107l-.669 1.392-1.527.215q-.12 0-.16.08a.26.26 0 0 0 0 .375l1.098 1.071-.268 1.527c0 .053 0 .107.027.16.08.134.24.188.375.107l1.366-.723 1.365.723c.027.027.08.027.134.027h.054a.28.28 0 0 0 .214-.321l-.268-1.527 1.098-1.07a.15.15 0 0 0 .08-.135M29.764 21.695c.027-.134-.08-.295-.214-.295l-1.526-.214-.697-1.393a.2.2 0 0 0-.107-.107c-.134-.08-.294-.027-.375.107l-.67 1.393-1.526.214q-.12 0-.16.08a.26.26 0 0 0 0 .375l1.098 1.072-.268 1.526c0 .053 0 .107.027.16.08.135.24.188.375.108l1.365-.723 1.366.723c.027.027.08.027.134.027h.054a.28.28 0 0 0 .214-.322l-.268-1.526 1.098-1.072a.15.15 0 0 0 .08-.133M30.683 15.267c.026-.134-.08-.294-.215-.294l-1.526-.215-.696-1.392a.2.2 0 0 0-.107-.107c-.134-.08-.295-.027-.375.107l-.67 1.393-1.526.214q-.12 0-.161.08a.26.26 0 0 0 0 .375l1.098 1.071-.268 1.527c0 .053 0 .107.027.16.08.134.24.188.375.108l1.366-.724 1.365.724c.027.026.08.026.134.026h.054a.28.28 0 0 0 .214-.321l-.268-1.527 1.098-1.07a.15.15 0 0 0 .08-.135M29.764 8.84c.027-.134-.08-.295-.214-.295l-1.526-.214-.697-1.392a.2.2 0 0 0-.107-.107c-.134-.08-.294-.027-.375.107l-.67 1.392-1.526.214q-.12 0-.16.08a.26.26 0 0 0 0 .376l1.098 1.071-.268 1.526c0 .054 0 .108.027.161.08.134.24.188.375.107l1.365-.723 1.366.723c.027.027.08.027.134.027h.054a.28.28 0 0 0 .214-.321l-.268-1.527 1.098-1.071a.15.15 0 0 0 .08-.134M25.174 4.25c.026-.135-.08-.295-.215-.295l-1.526-.215-.697-1.392a.2.2 0 0 0-.107-.107c-.134-.08-.294-.027-.375.107l-.669 1.392-1.527.215q-.12 0-.16.08a.26.26 0 0 0 0 .375l1.098 1.071-.268 1.527c0 .053 0 .107.027.16.08.134.24.188.375.107l1.366-.723 1.365.723c.027.027.08.027.134.027h.054a.28.28 0 0 0 .214-.321l-.268-1.527 1.098-1.07a.15.15 0 0 0 .08-.135"></path>
+              </svg>
+            </i>
+            <h3 class="card-icon-title text-body-3-med md:text-body-2-med text-balance">GDPR aligned</h3>
+          </div>
+        </li>
+        <li class="md:animate-fade-in md:motion-reduce:animate-none">
+          <div class="card-icon flex flex-col gap-5 w-full h-full items-center px-1 md:px-[3px]">
+            <i class="icon-v3 flex" aria-hidden="true">
+              <svg xmlns="http://www.w3.org/2000/svg" width="32" height="31" fill="none" viewBox="0 0 26 33" aria-labelledby="" style="color:currentColor">
+                <path fill="currentColor" d="M16.216 3.861c-1.247-.288-2.062 1.782-2.062 1.782v3.66c4.652.337 4.605-.915 4.605-.915C23.219 8.339 26 4.738 26 4.738c-4.124 1.165-8.538-.588-9.784-.877M11.846 9.302v-3.66s-.816-2.07-2.062-1.782S4.124 5.902 0 4.737c0 0 2.781 3.6 7.241 3.65 0 0-.047 1.25 4.605.915"></path>
+                <path fill="currentColor" d="M12.369 3.987v9.547c.194.025.402.05.632.077.224-.025.427-.05.618-.074v-9.55a1.67 1.67 0 0 0 1.036-1.543c0-.92-.742-1.666-1.66-1.666s-1.66.745-1.66 1.666c0 .698.428 1.296 1.035 1.543zM13 18.393q.09-.033.178-.072.216-.089.44-.203V16.25a5 5 0 0 0-.617-.087 5 5 0 0 0-.632.09v1.862q.229.118.445.206.094.04.187.075zM13.593 25.208a.1.1 0 0 0 .025-.02v-.33a2 2 0 0 0-.376-.132q-.117-.031-.244-.058a4 4 0 0 0-.236.056 1.8 1.8 0 0 0-.393.142v.314l.038.028c.156.105.367.207.594.313.227-.105.436-.208.593-.313zM13 31.196a7 7 0 0 1-.572.168l-.058.013.09.774c.11.264.19.627.535.627s.399-.23.526-.627l.098-.777-.044-.01a8 8 0 0 1-.574-.169zM13.599 28.298a.5.5 0 0 0-.09-.221c-.052-.076-.183-.212-.508-.383-.327.173-.457.307-.505.378a.5.5 0 0 0-.092.22.2.2 0 0 0-.007.043v.023l-.005.062.005.097q.007.03.01.056c.031.138.136.289.289.415q.143.117.308.213.161-.096.305-.212c.153-.127.257-.278.288-.414q.006-.029.01-.056l.005-.1-.004-.059v-.023c0-.013-.005-.025-.006-.037zM13 22.509q.014-.004.026-.006l.289-.065q.16-.037.304-.078v-1.247a4.4 4.4 0 0 0-.614-.272q-.357.141-.635.304v1.21q.28.078.606.146.012.004.026.006zM14.237 28.421v.009l-.008.154q-.001.045-.016.087c0 .01 0 .008-.002.018-.055.282-.235.562-.505.784l-.035.028q.198.069.368.116.163.046.313.08c.2-.213.393-.501.48-.877.011-.062.025-.136.035-.208l.013-.201-.006-.147a1.833 1.833 0 0 0-.3-.926 2 2 0 0 0-.217-.265 9 9 0 0 1-.671.31q.218.162.335.334c.1.138.161.287.193.463a1 1 0 0 1 .018.12q.008.033.009.07v.051000000000000004z"></path>
+                <path fill="currentColor" d="m19.335 12.178-.021-.201a2.4 2.4 0 0 0-.218-.73 1.9 1.9 0 0 0-.5-.622c-.425-.338-.858-.427-1.188-.467a4.3 4.3 0 0 0-.868.009q-.076.01-.145.02c-.556-.177-1.415-.26-2.007.577-.941 1.328.36 1.802.718 1.756.308-.039 1.22-.19 1.717-.834.139-.017.286-.024.424-.014a.95.95 0 0 1 .379.1q.073.038.128.113l.02.03a.7.7 0 0 1 .071.194.4.4 0 0 1 .031.133v.15500000000000003c.003.038 0 .075 0 .09a.4.4 0 0 1-.03.1 1 1 0 0 1-.084.157c-.087.14-.273.302-.513.45q-.11.067-.233.13c-.533.268-1.275.491-2.208.664a18 18 0 0 1-.71.118q-.225.033-.479.065-.284.037-.617.074l-.078.01c-.19.018-.374.047-.554.078a6.3 6.3 0 0 0-1.205.33 4 4 0 0 0-.873.467l-.058.043q-.165.123-.3.254a2 2 0 0 0-.234.27 1.918 1.918 0 0 0-.35.748q-.013.054-.023.11-.01.077-.018.163l-.004.124v.005l.01.165q.001.019.003.043a2.465 2.465 0 0 0 .074.387l.03.09c.02.069.04.132.064.18l.007.016q.107.248.273.486c.364.512.819.855 1.254 1.119a6.6 6.6 0 0 1 1.144-.616 8 8 0 0 1-.327-.173c-.521-.3-.926-.649-1.14-.985-.246-.378-.221-.689-.156-.883a1 1 0 0 1 .12-.232h-.038c.12-.162.332-.316.56-.44l.047-.024.016-.009q.061-.03.121-.057l.043-.02q.094-.04.182-.072.007-.001.012-.005h.002c.08-.03.163-.053.247-.078q.247-.07.511-.12.159-.029.326-.052.15-.02.306-.03c.016 0 .031-.005.049-.005q.302-.025.569-.05c.382-.037.718-.074 1.025-.117.368-.053.744-.113 1.124-.19a12 12 0 0 0 .746-.181 7.6 7.6 0 0 0 1.11-.403c.437-.212.901-.479 1.278-.973q.036-.049.068-.1c.152-.224.262-.468.312-.7q.004-.012.006-.026c.012-.039.024-.138.031-.203l.016-.347-.003-.054v-.007zM15.729 21.123c-.124-.334-.332-.63-.635-.914a5 5 0 0 0-.16-.136 8 8 0 0 1-1.061.465c.338.18.65.423.845.787q.041.078.07.16h-.002l.006.018.013.036a1 1 0 0 1 .034.186 1.1 1.1 0 0 1-.046.404c-.008.031-.023.062-.035.092q-.014.04-.03.081a.3.3 0 0 1-.023.044l-.018.03-.006.01-.038.05a1.25 1.25 0 0 1-.474.392q-.014.007-.03.012-.065.031-.137.056a4 4 0 0 1-.328.098l-.052.013-.006.002q-.214.053-.447.103h-.006l-.16.036c-.204.046-.412.095-.628.157h-.003a2.9 2.9 0 0 0-.83.37q-.025.018-.051.035a1.4 1.4 0 0 0-.22.195 1.6 1.6 0 0 0-.16.198l-.036.058q-.118.194-.18.448c-.011.056-.03.16-.037.25l-.008.188.005.072.005.093q.012.083.03.164c.024.107.051.175.096.275.147.307.378.505.583.645.228-.173.471-.313.714-.439a3 3 0 0 1-.222-.133c-.116-.079-.321-.238-.39-.429l-.008-.02-.012-.04c-.01-.035-.013-.073-.017-.116q0-.019-.003-.037v-.081q0-.038.01-.079a1 1 0 0 1 .015-.082l.004-.021a.68.68 0 0 1 .234-.383q.034-.03.074-.06.142-.093.343-.166l.062-.023q.112-.04.236-.072a6 6 0 0 1 .395-.09l.262-.052q.175-.032.356-.07a7 7 0 0 0 .66-.164q.09-.027.181-.062.16-.056.329-.145a2 2 0 0 0 .415-.284l.108-.105c.038-.041.076-.091.112-.139.034-.043.045-.063.057-.08l.086-.143c.09-.17.156-.334.204-.506a1.9 1.9 0 0 0-.044-1.155zM11.463 30.378a10 10 0 0 1-.875.127h-.015a.253.253 0 0 0-.238.269c.007.135.119.24.253.24h.015s.047-.005.125-.01l.327-.03c.258-.03.605-.079 1.03-.175a4 4 0 0 1-.622-.423zM15.425 30.506h-.013a8.83 8.83 0 0 1-1.273-.213q-.13-.032-.272-.07l-.13-.039-.118-.037a5 5 0 0 1-.618-.238 3.07 3.07 0 0 1-.632-.379q-.019-.012-.037-.028-.018-.013-.038-.028c-.268-.222-.448-.5-.506-.782l-.002-.02a.3.3 0 0 1-.015-.084l-.008-.154a.5.5 0 0 1 .006-.12c.003-.055.012-.101.018-.135q.044-.254.194-.462.117-.167.335-.33l.053-.035a3 3 0 0 1 .266-.169q.15-.083.326-.164l.038-.017q.18-.084.38-.166.119-.05.239-.102.099-.044.202-.09.155-.074.32-.161.104-.057.211-.122.04-.024.081-.053c.202-.139.436-.34.587-.655a1.3 1.3 0 0 0 .12-.429l.006-.093.006-.071-.007-.198a1.586 1.586 0 0 0-.218-.69 4 4 0 1 1-.816.274.68.68 0 0 1 .233.383l.004.022a1 1 0 0 1 .025.182v.024999999999999998q0 .014-.003.029l-.003.045-.003.05a.3.3 0 0 1-.034.126c-.067.193-.275.352-.391.43q-.105.07-.223.134-.049.026-.099.052a6 6 0 0 1-.248.124l-.266.124-.104.049q-.173.078-.348.164a7 7 0 0 0-.473.262 3 3 0 0 0-.291.207 2.3 2.3 0 0 0-.461.494 1.76 1.76 0 0 0-.282.739 1 1 0 0 0-.019.178l-.006.152.014.202q.015.111.038.218c.087.368.28.655.479.868.088.095.178.176.26.24l.018.014q.17.132.334.23.054.032.105.06c.177.1.346.176.5.24l.13.05a6 6 0 0 0 .619.197l.107.03.189.044c.414.094.754.14 1.036.174.141.013.254.025.33.031l.13.008a.255.255 0 0 0 .015-.51z"></path>
+                <path fill="currentColor" d="M16.69 16.702a3 3 0 0 0-.017-.16l-.02-.104a1.9 1.9 0 0 0-.183-.486 2 2 0 0 0-.168-.262 16 16 0 0 1-1.522.281q.402.198.59.467.07.095.111.202c.066.174.105.453-.088.797-.226.399-.64.77-1.232 1.103a7 7 0 0 1-.543.273q-.088.041-.177.077l-.022.01c-.137.06-.275.109-.42.162l-.02.007c-.115.042-.239.086-.383.142q-.114.046-.227.095a6 6 0 0 0-.716.36 4 4 0 0 0-.586.407q-.083.066-.162.14a2.4 2.4 0 0 0-.632.904 1.907 1.907 0 0 0-.046 1.16c.049.173.116.338.205.505l.038.07.006.007.043.068a2.783 2.783 0 0 0 .17.219l.118.116q.063.055.127.102.094-.085.193-.16c.242-.172.48-.288.706-.374-.355-.167-.604-.463-.674-.813-.035-.18-.02-.36.039-.53.067-.198.194-.384.375-.544.173-.151.374-.281.58-.394q.11-.06.216-.11.09-.045.18-.085c.148-.065.29-.121.416-.167q.017-.005.034-.012.12-.042.277-.093.166-.053.342-.117.1-.034.193-.07.262-.1.535-.228a9 9 0 0 0 .331-.165l.012-.005q.141-.078.29-.169c.432-.262.89-.605 1.255-1.12q.164-.235.271-.484l.007-.015c.024-.048.044-.113.067-.18q.013-.046.03-.09c.024-.073.046-.21.064-.317l.009-.068c0-.017.001-.031.004-.054l.009-.155v-.018l-.004-.122zM9.928 14.614a4.8 4.8 0 0 1 1.006-.539q.127-.046.26-.091c-.933-.175-1.675-.398-2.209-.666a4 4 0 0 1-.232-.128c-.24-.147-.426-.31-.517-.456a.8.8 0 0 1-.11-.24.5.5 0 0 1-.004-.102v-.087c0-.017 0-.016.003-.05v-.025a.4.4 0 0 1 .028-.11.8.8 0 0 1 .077-.208l.017-.028a.4.4 0 0 1 .127-.113 1 1 0 0 1 .384-.1q.064-.005.137-.005.144.001.283.018c.497.645 1.411.796 1.718.834.36.046 1.66-.427.719-1.755-.594-.836-1.451-.754-2.008-.578l-.147-.02a4.3 4.3 0 0 0-.87-.007c-.326.04-.76.129-1.185.467-.203.161-.38.383-.5.621-.109.218-.18.46-.218.74l-.023.263.016.34a2 2 0 0 0 .038.225q.041.187.13.377c.066.145.15.29.252.423.375.49.84.758 1.284.973.36.164.73.294 1.104.4q.195-.198.443-.373z"></path>
+              </svg>
+            </i>
+            <h3 class="card-icon-title text-body-3-med md:text-body-2-med text-balance">HIPAA solution</h3>
+          </div>
+        </li>
+        <li class="md:animate-fade-in md:motion-reduce:animate-none">
+          <div class="card-icon flex flex-col gap-5 w-full h-full items-center px-1 md:px-[3px]">
+            <i class="icon-v3 flex" aria-hidden="true">
+              <svg xmlns="http://www.w3.org/2000/svg" width="32" height="31" fill="currentColor" viewBox="0 0 21 21" aria-labelledby="" style="color:currentColor">
+                <path fill-rule="evenodd" d="M20.563 10.651c0 5.523-4.477 10-10 10s-10-4.477-10-10 4.477-10 10-10 10 4.478 10 10m-6.93-6.68a11 11 0 0 0-.315-.833A8.01 8.01 0 0 1 18.5 9.651h-3.956c-.077-2.173-.404-4.155-.912-5.68m.912 7.68h3.956a8.01 8.01 0 0 1-5.183 6.513q.171-.397.315-.832c.508-1.525.835-3.507.912-5.68m-7.052 5.68q.144.436.315.833a8.01 8.01 0 0 1-5.183-6.513H6.58c.077 2.174.404 4.156.912 5.68m-.912-7.68H2.625a8.01 8.01 0 0 1 5.183-6.513q-.171.398-.315.833c-.508 1.525-.835 3.507-.912 5.68m5.963 0c-.077-1.997-.378-3.757-.809-5.047-.252-.756-.53-1.296-.79-1.626a1.2 1.2 0 0 0-.3-.292.3.3 0 0 0-.067-.032l-.015-.003-.015.003a.3.3 0 0 0-.067.032c-.069.043-.173.13-.3.292-.26.33-.539.87-.79 1.626-.43 1.29-.733 3.05-.81 5.047zm-3.962 2c.076 1.998.378 3.758.808 5.048.252.756.53 1.296.79 1.626.128.162.232.249.301.291q.05.029.067.032l.015.003.015-.003a.3.3 0 0 0 .066-.032c.07-.042.173-.129.301-.29.26-.331.538-.87.79-1.627.43-1.29.732-3.05.809-5.048z" clip-rule="evenodd"></path>
+              </svg>
+            </i>
+            <h3 class="card-icon-title text-body-3-med md:text-body-2-med text-balance">ISO 27001 and 27701 certified</h3>
+          </div>
+        </li>
+        <li class="md:animate-fade-in md:motion-reduce:animate-none">
+          <div class="card-icon flex flex-col gap-5 w-full h-full items-center px-1 md:px-[3px]">
+            <i class="icon-v3 flex" aria-hidden="true">
+              <svg xmlns="http://www.w3.org/2000/svg" width="32" height="31" fill="none" viewBox="0 0 32 33" aria-labelledby="" style="color:currentColor">
+                <path fill="currentColor" fill-rule="evenodd" d="M24.54 28.805H7.46a3.273 3.273 0 0 1-3.28-3.282V8.258a3.273 3.273 0 0 1 3.28-3.281h17.08c1.799 0 3.28 1.46 3.28 3.28v17.266a3.286 3.286 0 0 1-3.28 3.282m-2.006-2.72H9.469A2.59 2.59 0 0 1 6.883 23.5V10.284a2.59 2.59 0 0 1 2.586-2.586h13.065a2.575 2.575 0 0 1 2.568 2.586V23.5a2.575 2.575 0 0 1-2.568 2.586M10.984 4.36V1.51c0-.338.282-.62.62-.62.339 0 .62.282.62.62v2.85zm-2.924 0V1.51c0-.338.281-.62.62-.62s.62.282.62.62v2.85zm14.64 0V1.51c0-.338.282-.62.62-.62.339 0 .6.282.6.62v2.85zm-2.924 0V1.51c0-.338.281-.62.62-.62s.599.282.599.62v2.85zm-2.922 0V1.51c0-.338.263-.62.6-.62.335 0 .619.282.619.62v2.85zm-2.924 0V1.51c0-.338.263-.62.599-.62s.62.282.62.62v2.85zM31.38 10.188h-2.942V8.95h2.942c.339 0 .62.28.62.62 0 .338-.281.62-.62.62zm0 14.622h-2.942V23.59h2.942c.339 0 .62.281.62.62a.607.607 0 0 1-.62.599m0-2.925h-2.942v-1.218h2.942c.339 0 .62.28.62.62a.607.607 0 0 1-.62.598m0-2.924h-2.942v-1.219h2.942c.339 0 .62.263.62.6 0 .335-.281.619-.62.619m0-2.924h-2.942v-1.22h2.942c.339 0 .62.264.62.6s-.281.62-.62.62m0-2.925h-2.942v-1.237h2.942c.339 0 .62.281.62.62s-.281.62-.62.62zM23.32 32.89a.625.625 0 0 1-.62-.62v-2.848h1.22v2.849c0 .338-.264.62-.6.62m-14.64 0a.625.625 0 0 1-.62-.62v-2.848h1.237v2.849c0 .338-.281.62-.62.62zm2.924 0a.625.625 0 0 1-.62-.62v-2.848h1.237v2.849c0 .338-.28.62-.62.62zm2.925 0a.607.607 0 0 1-.6-.62v-2.848h1.22v2.849c0 .338-.282.62-.62.62m2.924 0a.607.607 0 0 1-.599-.62v-2.848h1.219v2.849c0 .338-.281.62-.62.62m2.943 0a.625.625 0 0 1-.62-.62v-2.848h1.219v2.849c0 .338-.263.62-.6.62M3.563 24.81H.62a.61.61 0 0 1-.62-.6c0-.335.281-.619.62-.619h2.943zm0-14.622H.62a.625.625 0 0 1-.62-.62c0-.339.281-.62.62-.62h2.943zm0 2.924H.62a.625.625 0 0 1-.62-.62c0-.338.281-.62.62-.62h2.943zm0 2.925H.62a.625.625 0 0 1-.62-.62c0-.339.281-.6.62-.6h2.943zm0 2.924H.62a.625.625 0 0 1-.62-.62c0-.338.281-.599.62-.599h2.943zm0 2.924H.62a.61.61 0 0 1-.62-.599c0-.335.281-.62.62-.62h2.943z" clip-rule="evenodd"></path>
+                <path fill="currentColor" d="m8.297 15.508 2.326-5.794h1.274l2.358 5.794h-1.159l-.534-1.438h-2.63l-.534 1.438zm1.931-2.268h2.03l-1.027-2.663zM14.608 15.508V9.714h3.994v.847h-2.975v1.578h2.713v.838h-2.713v1.676h2.975v.855zM21.33 15.631c-1.538 0-2.368-.838-2.442-1.915h1.028c.057.518.419 1.102 1.405 1.102.92 0 1.29-.444 1.29-.863 0-.444-.213-.723-1.06-.88l-.657-.115c-1.266-.213-1.767-.764-1.767-1.684 0-.904.797-1.685 2.104-1.685 1.545 0 2.235.912 2.325 1.816h-1.035c-.099-.534-.444-1.01-1.282-1.01-.806 0-1.118.435-1.118.796 0 .46.238.674 1.044.814l.633.107c1.216.205 1.906.772 1.906 1.759 0 1.035-.896 1.758-2.375 1.758M11.672 20.653c.534-.64.748-1.002.748-1.48 0-.492-.296-.903-.945-.903-.748 0-.995.6-.912 1.364h-.954c-.115-1.364.625-2.178 1.907-2.178 1.29 0 1.923.773 1.923 1.644 0 .805-.452 1.422-1.101 2.145l-1.118 1.282h2.334v.846H9.346zM16.027 23.497c-1.348 0-2.088-.847-2.088-1.882h.962c.025.665.469 1.076 1.093 1.076.723 0 1.175-.468 1.175-1.216 0-.723-.493-1.175-1.158-1.175-.46 0-.863.238-1.02.64H13.99l.304-3.36h3.657v.821h-2.827l-.156 1.636c.197-.239.583-.493 1.249-.493 1.052 0 1.964.731 1.964 1.94 0 1.232-.896 2.013-2.153 2.013M20.597 23.497c-1.323 0-2.112-.913-2.112-2.006 0-1.002.707-1.857 1.372-2.654l1.077-1.258h1.175l-1.931 2.178c.189-.082.41-.115.666-.115 1.019 0 1.906.724 1.906 1.841 0 1.126-.813 2.014-2.153 2.014m-1.134-1.981c0 .682.468 1.159 1.134 1.159.674 0 1.15-.477 1.15-1.159 0-.674-.476-1.142-1.15-1.142-.666 0-1.134.468-1.134 1.142"></path>
+              </svg>
+            </i>
+            <h3 class="card-icon-title text-body-3-med md:text-body-2-med text-balance">AES-256 and HTTPS/TLS encryption</h3>
+          </div>
+        </li>
+        <li class="md:animate-fade-in md:motion-reduce:animate-none">
+          <div class="card-icon flex flex-col gap-5 w-full h-full items-center px-1 md:px-[3px]">
+            <i class="icon-v3 flex" aria-hidden="true">
+              <svg xmlns="http://www.w3.org/2000/svg" width="32" height="31" fill="none" viewBox="0 0 32 33" aria-labelledby="" style="color:currentColor">
+                <path fill="currentColor" fill-rule="evenodd" d="M20.8 4.092a8 8 0 0 0-8 8 8 8 0 0 0 .342 2.324 1.6 1.6 0 0 1-.4 1.596L3.2 25.554v4.138h3.2v-1.6a1.6 1.6 0 0 1 1.6-1.6h1.6v-1.6a1.6 1.6 0 0 1 1.6-1.6h2.537l3.143-3.143a1.6 1.6 0 0 1 1.595-.4 8 8 0 0 0 2.325.343 8 8 0 1 0 0-16m-11.2 25.6v1.6a1.6 1.6 0 0 1-1.6 1.6H3.2a3.2 3.2 0 0 1-3.2-3.2v-4.138a3.2 3.2 0 0 1 .937-2.262l8.9-8.9a11.2 11.2 0 0 1-.237-2.3c0-6.186 5.014-11.2 11.2-11.2S32 5.906 32 12.092s-5.014 11.2-11.2 11.2c-.787 0-1.557-.082-2.3-.237l-2.969 2.968a1.6 1.6 0 0 1-1.131.469h-1.6v1.6a1.6 1.6 0 0 1-1.6 1.6zm9.6-20.8a1.6 1.6 0 0 1 1.6-1.6 4.8 4.8 0 0 1 4.8 4.8 1.6 1.6 0 1 1-3.2 0 1.6 1.6 0 0 0-1.6-1.6 1.6 1.6 0 0 1-1.6-1.6" clip-rule="evenodd"></path>
+              </svg>
+            </i>
+            <h3 class="card-icon-title text-body-3-med md:text-body-2-med text-balance">Single Sign-On (SSO) integration</h3>
+          </div>
+        </li>
+      </ul>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="site-footer">
+    <div class="container footer-grid">
+      <div><h4>Product</h4><ul><li><a href="#">Features</a></li><li><a href="#">Pricing</a></li><li><a href="#">What's new</a></li><li><a href="#">Mobile app</a></li></ul></div>
+      <div><h4>Solutions</h4><ul><li><a href="#">Marketing</a></li><li><a href="#">Creators</a></li><li><a href="#">Education</a></li><li><a href="#">Enterprise</a></li></ul></div>
+      <div><h4>Resources</h4><ul><li><a href="#">Help center</a></li><li><a href="#">Blog</a></li><li><a href="#">Developers</a></li><li><a href="#">Community</a></li></ul></div>
+      <div><h4>Company</h4><ul><li><a href="#">About</a></li><li><a href="#">Careers</a></li><li><a href="#">Press</a></li><li><a href="#">Contact</a></li></ul></div>
+    </div>
+    <div class="container footer-bottom">
+      <span class="logo">vimeo</span>
+      <p>© <span id="year"></span> Vimeo clone — built for M0615.</p>
+    </div>
+  </footer>
+
+  <script src="script.js" defer></script>
+</body>
+</html>
